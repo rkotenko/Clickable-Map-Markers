@@ -4,12 +4,13 @@
     
 */
 
-// this is the main function.  It gets the locations via an ajax call to location.php
+
 
 $(document).ready(function(){
     var map;
     var infoWindow;
 
+    // this is the main function.  It gets the locations via an ajax call to location.php
     function load(){
         $.ajax({
             url: 'location.php',
